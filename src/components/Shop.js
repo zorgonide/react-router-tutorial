@@ -40,10 +40,11 @@ function Shop() {
       <div>
         <h1>Shop Page</h1>
         {
-        // JSON.stringify(items.ships)
-        items.ships.map(item => (
-          <p>{item.name}</p>
-        ))}
+        JSON.stringify(items.ships)
+        // items.ships.map(item => (
+        //   <p>{item.name}</p>
+        // ))
+        }
       </div>
     )
 }
